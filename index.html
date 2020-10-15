@@ -1,100 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
-  <!--     │││├┤   ├─┤├┬┘├┤         -->
-  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
-  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
-  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
-  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
+<meta charset="utf-8">
+	<meta name="Description"  content="motorsuzuki">
+	<meta name="keyword" content="suzuki,honda,yamaha,motor">
+	<meta http-equiv="refres" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f77737"/>
+    <title>Suzuki</title>
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="medianavigasi.css"><!-- responsive naigasi-->
+    <link rel="stylesheet" type="text/css" href="gambarmedia.css"><!--responsivegambar-->
+    <link rel="stylesheet" type="text/css" href="animatibanner.css"><!-- animati banner-->
+    <link rel="stylesheet" type="text/css" href="body.css"><!--css badan-->
+    <link rel="stylesheet" type="text/css" href="photo.css">
+    <!--icon fontawesome-->
+    <script src="https://kit.fontawesome.com/967f36405e.js"></script>
 </head>
 <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+    <!--tombol navigasi-->
+<div class="header">
+    <div class="navigasi">
+        <a href="#">Beranda</a>
+        <a href="#">Profil</a>
+        <input type="search" class="cari" placeholder="Search">
+        <!-- dropdown untuk product-->
+        <div class="navigasi1">
+            <a href="#" class="linker">Product</a>
+            <div class="navigasi-content">
+                <a href="#">Motor</a>
+                <a href="#">mobil</a>
+            </div>
         </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
-        </div>
-      </div>
-    </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
-        <p>We offer you a fully equipped coding environment to get you started.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Sign up with Email</a>
-          <p>or</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
-        </div>
-      </div>
     </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Learn Where to Get Started!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-              <p>HTML & CSS</p>
-            </div>
-            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
-            </div>
-            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
-            </div>
-            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
+<!-- template banner-->
+<div class="gambar"> 
+</div>
+<!-- bagian badan membuat sebuah perbandingan antar motor dari merek suzuki-->
+<div class="badan">
+
+    <div class="bagian">
+        <img src="gsxr.png" width="25%;" height="auto;">
+    <div class="spesifikasi"> <!-- gsxr-->
+        <div id="div1">Tenaga 14,1 Kw</div>
+        <div id="div2"> Tinggi 1.075 mm</div>
+        <div id="div3"> Berat 131Kg</div>
+        <div id="div4"> Mesin 147,3Cc</div>
+        <div id="div5"> Panjang 2,020mm</div>
+        <div id="div6"> Lebar 700m</div>
     </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Ready to become an awesome programmer?</h2>
-          <h3>Let's learn to code, learn to be creative!</h3>
-        </div>
-        <span class="btn message">Start Learning</span>
-      </div>
     </div>
-    <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
-      </div>
-    </footer>
-  </body>
+    
+    <div class="bagian1">
+        <img src="gsxs.png"style ="width: 25%"; height:auto">
+    <div class="spesifikasi">
+        <div id="div12">Tenaga 14,1Kw</div>
+        <div id="div13"> Tinggi 1.035Mm</div>
+        <div id="div14"> Berat 135Kg</div>
+        <div id="div15"> Mesin 147,3Cc</div>
+        <div id="div16"> Panjang 2,000mm</div>
+        <div id="div17"> Lebar 745m</div>
+    </div>
+    </div>
+
+    <div class="bagian2">
+        <img src="satria.png" width="25%" height="auto;">
+    <div class="spesifikasi">
+        <div id="div20">Tenaga 13,6Kw</div>
+        <div id="div21"> Tinggi 980Mm</div>
+        <div id="div22"> Berat 109Kg</div>
+        <div id="div23"> Mesin 147,3Cc</div>
+        <div id="div24"> Panjang 1,960mm</div>
+        <div id="div25"> Lebar 675m</div>
+    </div>
+    </div>
+
+    <div class="bagian3">
+        <img src="sgs.png" width="25%"; height="auto";>
+    <div class="spesifikasi">
+        <div id="div30">Tenaga 14,1Kw</div>
+        <div id="div31"> Tinggi 1040Mm</div>
+        <div id="div32"> Berat 130Kg</div>
+        <div id="div33"> Mesin 147,3Cc</div>
+        <div id="div34"> Panjang 1,960mm</div>
+        <div id="div35"> Lebar 675m</div>
+
+    </div>
+    </div>
+</div>
+
+<div class="photo">
+    <div class="photo1">
+    <a href="file:///E:/tugas%20progate/1.png"><img src="1.png"> </a>
+        <h1>Photo1</h1>
+    </div>
+    <div class="photo2">
+    <a href="file:///E:/tugas%20progate/2.jpg" download="motor.jpg"><img src="2.jpg"></a>
+        <h1>Photo2</h1>
+    </div>
+    <div class="photo3">
+    <a href="file:///E:/tugas%20progate/3.jpg" download="alex"> <img src="3.jpg"></a>
+        <h1>Photo3</h1>
+    </div>
+    <div class="photo4">
+    <a href="file:///E:/tugas%20progate/4.jpg"><img src="4.jpg"></a>
+        <h1>photo4</h1>
+    </div>
+</div>
+
+<!---footer-->
+<div class="footer">
+    <div class="footer1">
+        <ul>
+        <li><a href="#"> Beranda</a></li>
+        <li><a href="#"> Beranda</a></li>
+        <li><a href="#"> Beranda</a></li>
+        <li><a href="#"> Beranda</a></li>
+        </ul>
+    </div>
+
+    <div class="footer2">
+        <ul>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Beranda</a></li>
+        </ul>
+    </div>
+    <div class="footer3">
+        <ul>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Beranda</a></li>
+            <li><a href="#"> Beranda</a></li>
+        </ul>
+        <div class="icon">
+        <a href="#"><i class ="fab fa-facebook fa-1x">Facebook</i></a>
+        <a href="mailto: robbaniachmad41@gmail.com"><i class ="fas fa-envelope-square fa-1x">Email </i></a>
+    </div>
+    </div>
+</div>
+</body>
 </html>
