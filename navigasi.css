@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+div.navigasi-item {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: url(file:///E:/navigasi/navigasi%20borderbottom/img/v462-n-130-textureidea_1.jpg);
+    
+    
+}
+div.navigasi-item a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+div.navigasi-item a.pertama:hover {
+    border-bottom: 5px solid green;
+    color: red;
+}
+div.navigasi-item a.kedua:hover {
+    
+    border-bottom: 5px solid yellow;
+    color: red;
+}
+div.navigasi-item a.ketiga:hover {
+    
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+div.navigasi-item a.keempat:hover {
+    border-bottom: 5px solid white;
+    color: white;
+}
+
